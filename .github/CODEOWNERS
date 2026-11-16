@@ -1,0 +1,29 @@
+# ==============================================================================
+# CODEOWNERS - Hostel Maintenance & Facility Repair Ticketing Portal
+# Jira Project Key: S4
+ ==============================================================================
+
+# 1. Global Default Owners (Applies to all unmapped files in the repository)
+# Member 1 (SCM Manager / Group Leader) & Member 2 (Configuration Librarian)
+*                       @Gtosin99 @Tendus-stephan
+
+# 2. Configuration Baseline, Routing Shell & Governance Files (S4-1)
+/.github/               @Gtosin99 @Tendus-stephan
+/.github/CODEOWNERS     @Gtosin99 @Tendus-stephan
+/README.md              @Gtosin99 @Tendus-stephan
+/CHANGELOG.md           @Gtosin99 @Tendus-stephan
+/index.html             @Gtosin99 @Tendus-stephan
+/styles.css             @Gtosin99 @Tendus-stephan
+
+# 3. Module-Specific Code Owners (Aligned with Jira Issues S4-2 to S4-5)
+# Member 2 (Steph): Student Resident Login & Hostel Profile Screen (S4-2)
+/src/login/             @Tendus-stephan @Gtosin99
+
+# Member 3 (Okolie): Fault Reporting Form & Photo Upload Stub (S4-3)
+/src/report-fault/      @OkolieLeonard @Gtosin99
+
+# Member 4 (Talkier): Resident Ticket Lifecycle & Status Tracker (S4-4)
+/src/my-tickets/        @TalkierFrog936 @Gtosin99
+
+# Member 5 (Sigmund): Facility Manager Triage & Technician Dispatch Dashboard (S4-5)
+/src/admin-panel/       @sigmund1130 @Gtosin99

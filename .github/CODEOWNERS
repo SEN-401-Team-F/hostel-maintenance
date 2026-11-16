@@ -1,0 +1,29 @@
+<!-- # 1. Global Catch-All
+# Default owner (Configuration Manager) for any unmapped file in the repo.
+*                       @Gtosin99
+
+# 2. Shared & High-Risk Files
+# Required review for Week 8 merge collision testing and course documentation.
+/CHANGELOG.md           @Gtosin99 @OkolieLeonard
+/SCMP.md                @Gtosin99
+/.github/CODEOWNERS     @Gtosin99
+
+# 3. CI/CD & Infrastructure
+# Pipelines and deployment scripts owned by the Configuration Manager.
+/.github/workflows/     @Gtosin99
+/scripts/               @Gtosin99
+
+# 4. Backend & API Services
+# Module ownership for backend logic and endpoints.
+/src/backend/           @OkolieLeonard @sigmund1130
+/src/api/               @OkolieLeonard
+
+# 5. Frontend & UI Components
+# Module ownership for client-side pages and components.
+/src/frontend/          @TalkierFrog936 @Tendus-stephan
+/src/components/        @Tendus-stephan
+
+# 6. Database & Schemas
+# SQL scripts, schemas, and migrations.
+/db/                    @sigmund1130
+/migrations/            @sigmund1130 -->
